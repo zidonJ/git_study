@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7223B5FB2886568B00047C06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B5FA2886568B00047C06 /* AppDelegate.m */; };
+		7223B5FE2886568B00047C06 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B5FD2886568B00047C06 /* SceneDelegate.m */; };
+		7223B6012886568B00047C06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B6002886568B00047C06 /* ViewController.m */; };
+		7223B6042886568B00047C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7223B6022886568B00047C06 /* Main.storyboard */; };
+		7223B6062886568F00047C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7223B6052886568F00047C06 /* Assets.xcassets */; };
+		7223B6092886568F00047C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7223B6072886568F00047C06 /* LaunchScreen.storyboard */; };
+		7223B60C2886568F00047C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B60B2886568F00047C06 /* main.m */; };
+		7223B6172886579900047C06 /* ZDAsyncRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B6162886579900047C06 /* ZDAsyncRender.m */; };
+		7223B61A28865BB400047C06 /* ZDDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B61928865BB400047C06 /* ZDDispatchQueuePool.m */; };
+		7223B61D288695C400047C06 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223B61C288695C400047C06 /* MyLabel.m */; };
+		72ABFBBB288BE9760059FEF1 /* ZDAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ABFBBA288BE9760059FEF1 /* ZDAttribute.m */; };
+		72ABFBBE288BEBA70059FEF1 /* NSAttributedString+TextKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ABFBBD288BEBA70059FEF1 /* NSAttributedString+TextKit.m */; };
+		72D49C4928894C430041B74B /* ZDTextRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D49C4828894C430041B74B /* ZDTextRender.m */; };
+		72D49C4E2889508D0041B74B /* ZDLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D49C4D2889508D0041B74B /* ZDLayoutManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7223B5F62886568B00047C06 /* ZDKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7223B5F92886568B00047C06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7223B5FA2886568B00047C06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7223B5FC2886568B00047C06 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7223B5FD2886568B00047C06 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7223B5FF2886568B00047C06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7223B6002886568B00047C06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7223B6032886568B00047C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7223B6052886568F00047C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7223B6082886568F00047C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7223B60A2886568F00047C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7223B60B2886568F00047C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7223B6152886579900047C06 /* ZDAsyncRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDAsyncRender.h; sourceTree = "<group>"; };
+		7223B6162886579900047C06 /* ZDAsyncRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDAsyncRender.m; sourceTree = "<group>"; };
+		7223B61828865BB400047C06 /* ZDDispatchQueuePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDispatchQueuePool.h; sourceTree = "<group>"; };
+		7223B61928865BB400047C06 /* ZDDispatchQueuePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDDispatchQueuePool.m; sourceTree = "<group>"; };
+		7223B61B288695C400047C06 /* MyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		7223B61C288695C400047C06 /* MyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		72ABFBB9288BE9760059FEF1 /* ZDAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDAttribute.h; sourceTree = "<group>"; };
+		72ABFBBA288BE9760059FEF1 /* ZDAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDAttribute.m; sourceTree = "<group>"; };
+		72ABFBBC288BEBA70059FEF1 /* NSAttributedString+TextKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TextKit.h"; sourceTree = "<group>"; };
+		72ABFBBD288BEBA70059FEF1 /* NSAttributedString+TextKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TextKit.m"; sourceTree = "<group>"; };
+		72D49C4728894C430041B74B /* ZDTextRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDTextRender.h; sourceTree = "<group>"; };
+		72D49C4828894C430041B74B /* ZDTextRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDTextRender.m; sourceTree = "<group>"; };
+		72D49C4C2889508D0041B74B /* ZDLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDLayoutManager.h; sourceTree = "<group>"; };
+		72D49C4D2889508D0041B74B /* ZDLayoutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDLayoutManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7223B5F32886568B00047C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7223B5ED2886568B00047C06 = {
+			isa = PBXGroup;
+			children = (
+				7223B5F82886568B00047C06 /* ZDKit */,
+				7223B5F72886568B00047C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7223B5F72886568B00047C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7223B5F62886568B00047C06 /* ZDKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7223B5F82886568B00047C06 /* ZDKit */ = {
+			isa = PBXGroup;
+			children = (
+				7223B5F92886568B00047C06 /* AppDelegate.h */,
+				7223B5FA2886568B00047C06 /* AppDelegate.m */,
+				7223B5FC2886568B00047C06 /* SceneDelegate.h */,
+				7223B5FD2886568B00047C06 /* SceneDelegate.m */,
+				7223B5FF2886568B00047C06 /* ViewController.h */,
+				7223B6002886568B00047C06 /* ViewController.m */,
+				7223B6142886571B00047C06 /* TextKit */,
+				7223B6132886570200047C06 /* ImageKit */,
+				7223B612288656A600047C06 /* AsyncRender */,
+				7223B6022886568B00047C06 /* Main.storyboard */,
+				7223B6052886568F00047C06 /* Assets.xcassets */,
+				7223B6072886568F00047C06 /* LaunchScreen.storyboard */,
+				7223B60A2886568F00047C06 /* Info.plist */,
+				7223B60B2886568F00047C06 /* main.m */,
+			);
+			path = ZDKit;
+			sourceTree = "<group>";
+		};
+		7223B612288656A600047C06 /* AsyncRender */ = {
+			isa = PBXGroup;
+			children = (
+				7223B6152886579900047C06 /* ZDAsyncRender.h */,
+				7223B6162886579900047C06 /* ZDAsyncRender.m */,
+				7223B61828865BB400047C06 /* ZDDispatchQueuePool.h */,
+				7223B61928865BB400047C06 /* ZDDispatchQueuePool.m */,
+			);
+			path = AsyncRender;
+			sourceTree = "<group>";
+		};
+		7223B6132886570200047C06 /* ImageKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageKit;
+			sourceTree = "<group>";
+		};
+		7223B6142886571B00047C06 /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+				7223B61B288695C400047C06 /* MyLabel.h */,
+				7223B61C288695C400047C06 /* MyLabel.m */,
+				72D49C4728894C430041B74B /* ZDTextRender.h */,
+				72D49C4828894C430041B74B /* ZDTextRender.m */,
+				72D49C4C2889508D0041B74B /* ZDLayoutManager.h */,
+				72D49C4D2889508D0041B74B /* ZDLayoutManager.m */,
+				72ABFBB9288BE9760059FEF1 /* ZDAttribute.h */,
+				72ABFBBA288BE9760059FEF1 /* ZDAttribute.m */,
+				72ABFBBC288BEBA70059FEF1 /* NSAttributedString+TextKit.h */,
+				72ABFBBD288BEBA70059FEF1 /* NSAttributedString+TextKit.m */,
+			);
+			path = TextKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7223B5F52886568B00047C06 /* ZDKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7223B60F2886568F00047C06 /* Build configuration list for PBXNativeTarget "ZDKit" */;
+			buildPhases = (
+				7223B5F22886568B00047C06 /* Sources */,
+				7223B5F32886568B00047C06 /* Frameworks */,
+				7223B5F42886568B00047C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDKit;
+			productName = ZDKit;
+			productReference = 7223B5F62886568B00047C06 /* ZDKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7223B5EE2886568B00047C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7223B5F52886568B00047C06 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7223B5F12886568B00047C06 /* Build configuration list for PBXProject "ZDKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7223B5ED2886568B00047C06;
+			productRefGroup = 7223B5F72886568B00047C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7223B5F52886568B00047C06 /* ZDKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7223B5F42886568B00047C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7223B6092886568F00047C06 /* LaunchScreen.storyboard in Resources */,
+				7223B6062886568F00047C06 /* Assets.xcassets in Resources */,
+				7223B6042886568B00047C06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7223B5F22886568B00047C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7223B6012886568B00047C06 /* ViewController.m in Sources */,
+				7223B61A28865BB400047C06 /* ZDDispatchQueuePool.m in Sources */,
+				72ABFBBB288BE9760059FEF1 /* ZDAttribute.m in Sources */,
+				7223B61D288695C400047C06 /* MyLabel.m in Sources */,
+				72D49C4928894C430041B74B /* ZDTextRender.m in Sources */,
+				72ABFBBE288BEBA70059FEF1 /* NSAttributedString+TextKit.m in Sources */,
+				72D49C4E2889508D0041B74B /* ZDLayoutManager.m in Sources */,
+				7223B5FB2886568B00047C06 /* AppDelegate.m in Sources */,
+				7223B60C2886568F00047C06 /* main.m in Sources */,
+				7223B5FE2886568B00047C06 /* SceneDelegate.m in Sources */,
+				7223B6172886579900047C06 /* ZDAsyncRender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7223B6022886568B00047C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7223B6032886568B00047C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7223B6072886568F00047C06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7223B6082886568F00047C06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7223B60D2886568F00047C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7223B60E2886568F00047C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7223B6102886568F00047C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ET3Y989RPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZDKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sina.ZDKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7223B6112886568F00047C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ET3Y989RPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZDKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sina.ZDKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7223B5F12886568B00047C06 /* Build configuration list for PBXProject "ZDKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7223B60D2886568F00047C06 /* Debug */,
+				7223B60E2886568F00047C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7223B60F2886568F00047C06 /* Build configuration list for PBXNativeTarget "ZDKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7223B6102886568F00047C06 /* Debug */,
+				7223B6112886568F00047C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7223B5EE2886568B00047C06 /* Project object */;
+}

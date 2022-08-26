@@ -1,0 +1,9 @@
+*.xcworkspace
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/xcdebugger/*.*
+ZDKit/ZDKit.xcodeproj/project.xcworkspace/xcshareddata/
+*/*.xcodeproj/xcshareddata/
+*/*.xcodeproj/xcuserdata/
+Podfile.lock
+Pods/
+
